@@ -179,9 +179,15 @@
       <div class="success-screen" id="successScreen">
         <span class="success-icon">🌙✨</span>
         <h2>جزاك الله خيراً!</h2>
-        <h2> شارك الخير مع من تحب!</h2>
-        <h2>أرسل رابط المسابقة لأصدقائك وعائلتك</h2> 
         <p>تم إرسال إجاباتك بنجاح<br>رمضان مبارك من IEEE WIE AQU 🌸</p>
+        <div class="share-box">
+          <p class="share-title">🌙 شارِك الخيرَ مع من تحب!</p>
+          <p class="share-desc">أرسِل رابط المسابقة لأصدقائك وعائلتك🤍</p>
+          <button class="share-btn" onclick="copyLink()">📋 انسخ الرابط</button>
+          <span class="share-copied" id="shareCopied">✓ تم النسخ!</span>
+        </div>
+      </div>
+
       </div>
 
       <div id="quizContent">
@@ -222,11 +228,13 @@
       
       <div id="successScreen" style="display:none;">
         <h2>جزاك الله خيراً!</h2>
-        <h2> شارك الخير مع من تحب!</h2>
-        <h2>أرسل رابط المسابقة لأصدقائك وعائلتك</h2> 
-
         <p>تم إرسال إجاباتك بنجاح 🌙</p>
         <p>رمضان مبارك من IEEE WIE AQU</p>
+          <p class="share-title">🌙 شارِك الخيرَ مع من تحب!</p>
+          <p class="share-desc">أرسِل رابط المسابقة لأصدقائك وعائلتك🤍</p>
+          <button class="share-btn" onclick="copyLink()">📋 انسخ الرابط</button>
+          <span class="share-copied" id="shareCopied">✓ تم النسخ!</span>
+        </div>
       </div>
       
       <script>
